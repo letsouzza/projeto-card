@@ -26,7 +26,6 @@ a{
     gap: 16px;
     padding: 8px;
 }
-
 li{
     padding: 4px 8px;
     transition: 0.5s;
@@ -34,7 +33,24 @@ li{
 li:hover{
     background-color: var(--cor-hover);
 }
-
 .menu img{
     height: 20px;
+}
+
+
+.container{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 4px;
+}
+.container p{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    font-size: 15px;
+}
+.container img{
+    height: 200px;
 }
